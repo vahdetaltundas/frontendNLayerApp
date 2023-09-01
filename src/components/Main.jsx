@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { withTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-import "./ExternalCss/Main.css"
+// import "./ExternalCss/Main.css"
 import OtherLanguageReusability from '../internationalization/OtherLanguageReusability';
 
 class Main extends Component {

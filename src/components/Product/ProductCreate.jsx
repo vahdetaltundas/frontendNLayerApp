@@ -138,31 +138,20 @@ class ProductCreate extends Component {
           </div> */}
           <ResuabilityProductInput 
           type="text" 
-          className="form-control mb-4" 
+          classNameInput="form-control mb-4" 
           id="name" 
           placeholder={t("product_name")} 
+          label={t("product_name")} 
           required={true}
           autoFocus={true}
           onChange={this.onChangeInputValueString}/>
 
-          {/* <div className="form-group mb-4">
-            <span className="form-label">{t("product_stock")}</span>
-            <input
-              type="number"
-              className="form-control"
-              id="stock"
-              name="stock"
-              placeholder={t("product_stock")}
-              required={true}
-              autoFocus={false}
-              onChange={this.onChangeInputValueNumber}
-            />
-          </div> */}
           <ResuabilityProductInput 
           type="number" 
-          className="form-control mb-4" 
+          classNameInput="form-control mb-4" 
           id="stock" 
           placeholder={t("product_stock")} 
+          label={t("product_stock")} 
           required={true}
           autoFocus={false}
           onChange={this.onChangeInputValueNumber}/>

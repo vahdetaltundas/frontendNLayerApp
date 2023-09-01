@@ -38,11 +38,12 @@ class ProductList extends Component {
   //FUNCTION
   view(id){
     // alert(id);
-    localStorage.setItem("product_view_id",id)
+    localStorage.setItem("product_data_id",id)
     // window.open("/product/view/"+id);
   }
   update(id){
     // alert(id);
+    localStorage.setItem("product_data_id",id)
   }
   delete(id){
     // alert(id);
@@ -85,11 +86,13 @@ class ProductList extends Component {
                 <td>{temp.categoryId}</td>
                 {/* UPDATE */}
                 <td>
+                <Link to={`/product/update/${temp.id}`}>
                   <i 
                   className="fa-solid fa-pen-nib text-primary" 
                   style={{ cursor: "pointer" }}
                   onClick={()=>this.update(temp.id)}>
                   </i>
+                </Link>
                 </td>
                 {/* VIEW */}
                 <td>
