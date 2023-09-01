@@ -1,0 +1,32 @@
+Backend URL : 
+https://localhost:7054
+
+Frontend URL : 
+https://localhost:3000
+
+JSX TO HTML : 
+https://transform.tools/html-to-jsx
+
+
+___________________________________
+
+
+NPM
+
+// Api bağlantısı için gerekli
+
+npm install axios --save
+npm i react-router-dom --save
+_______________________________________
+
+Package Json
+
+
+"axios": "^1.4.0",
+    "i18next": "^21.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.6",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
